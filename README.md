@@ -2,7 +2,7 @@
 
 A fully automated water irrigation setup which senses the moister level in the soil using Moister sensor which sends reading to the Micro controller which in turn controls starting and stopping of water pump through a relay module.
 
-
+<!--
 code:
 
 int soilMoistureValue = 0;
@@ -25,4 +25,4 @@ if(percentage >80)
   Serial.println("pump off");
   digitalWrite(3,HIGH);
 }
-}
+}>
